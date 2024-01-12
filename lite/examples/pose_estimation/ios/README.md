@@ -70,5 +70,14 @@ is run automatically during the Xcode built process.
 If you explicitly want to download the models, you can download them from here:
 
 *   [Posenet](https://storage.googleapis.com/download.tensorflow.org/models/tflite/posenet_mobilenet_v1_100_257x257_multi_kpt_stripped.tflite)
-*   [Movenet Lightning](https://tfhub.dev/google/movenet/singlepose/lightning/)
-*   [Movenet Thunder](https://tfhub.dev/google/movenet/singlepose/thunder/)
+
+To download Movenet Lightning and Thunder models manually and add them to the models:
+
+- Go to the following Movenet Lightning/Thunder URL.
+- Next to "New Notebook" click on the download icon.
+- Extract the archived Lightning/Thunder file (it's named `archive.tar.gz`).
+- Rename the extracted Lightning/Thunder file to `movenet_lightning.tflite` or `movenet_thunder.tflite`
+- Copy the renamed files to the `examples/lite/examples/pose_estimation/ios/PoseEstimation/ML/Models` directory
+
+*   [Movenet Lightning](https://www.kaggle.com/models/google/movenet/frameworks/tfLite/variations/singlepose-lightning)
+*   [Movenet Thunder](https://www.kaggle.com/models/google/movenet/frameworks/tfLite/variations/singlepose-thunder)
